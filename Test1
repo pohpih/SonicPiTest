@@ -1,0 +1,50 @@
+3.times do
+  sample :perc_snap, amp: 1
+  sleep 0.5
+  sample :perc_snap2, amp: 1
+  sleep 0.5
+end
+sample :loop_mika
+3.times do
+  sample :perc_snap, amp: 1
+  sleep 0.5
+  sample :perc_snap2, amp: 1
+  sleep 0.5
+end
+
+4.times do
+  sample :bd_ada, amp: 1
+  sleep 0.5
+  sample :perc_snap, amp: 1
+  sleep 0.5
+end
+
+4.times do
+  sample :perc_bell, amp: 1
+  sleep 0.25
+  sample :perc_snap, amp: 1
+  sleep 0.25
+end
+
+sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterF.wav"
+sleep 0.5
+sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterF.wav"
+sleep 0.5
+sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterC.wav"
+sleep 0.5
+sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterK.wav"
+sleep 0.5
+
+4.times do
+  sample :bd_ada, amp: 1
+  sleep 0.25
+  sample :perc_snap, amp: 1
+  sleep 0.25
+end
+
+4.times do
+  sample :bd_ada, amp: 1
+  sleep 0.25
+  sample :perc_snap2, amp: 1
+  sleep 0.25
+end
