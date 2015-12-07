@@ -26,13 +26,13 @@ end
   sleep 0.25
 end
 
-sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterF.wav"
+sample "$/ch_letterF.wav"
 sleep 0.5
-sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterF.wav"
+sample "$/ch_letterF.wav"
 sleep 0.5
-sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterC.wav"
+sample "$/ch_letterC.wav"
 sleep 0.5
-sample "C:/Program Files (x86)/Sonic Pi/etc/samples/geekCoolWavs/ch_letterK.wav"
+sample "$/ch_letterK.wav"
 sleep 0.5
 
 4.times do
